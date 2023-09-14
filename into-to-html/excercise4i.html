@@ -1,0 +1,69 @@
+<style>
+  .button-stretch {
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    cursor: pointer;
+    transition: padding 1s;
+  }
+
+  .button-stretch:hover {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .button-shadow {
+    background-color: green;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 8px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  
+  .button-shadow:active {
+    box-shadow: none;
+    margin-left: 13px;
+    margin-top: 5px;
+  }
+
+  .button-num {
+    margin-left: 8px;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    transition: padding-left 1s, padding-right 1s;
+  }
+
+  .button-num:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+</style>
+
+<button class="button-stretch">
+  Stretch
+</button>
+
+<button class="button-shadow">
+  Shadow
+</button>
+
+<button class="button-num">One</button>
+<button class="button-num">Two</button>
+<button class="button-num">Three</button>
